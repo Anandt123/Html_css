@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in Page in css hover</title>
+    <style>
+        button{
+            color: #ffffff;
+            background-color: rgb(57, 138, 240);
+            border-radius: 12px;
+            box-shadow: 3px 4px 3px rgb(134, 18, 254);
+        }
+        button:hover{
+            color: yellow;
+            background-color: rgb(247, 4, 4);
+            font-size: 14px;
+            font-family: cursive;
+            border-radius: 45px;
+            box-shadow: 3px 3px 4px rgb(197,29,36);
+
+        }
+        button:active{
+            background-color: rgb(4, 167, 45);
+            font-size: 20px;
+            font-family:initial;
+            border-radius: 25px;
+            box-shadow: 3px 3px 4px yellow;
+        }
+
+        input:focus{
+            color: rgb(134, 18, 254);
+            background-color: rgb(205, 241, 43);
+            font-size: 14px;
+            font-family:monospace;
+        }
+    </style>
+</head>
+<body align="center">
+    <form>
+        <label>User-name : </label>
+            <input type="text" value="" placeholder="Enter your name" required><br><br>
+
+            <label>Password : </label>
+            <input type="password" name="password" id="" placeholder="Enter Password" required><br><br>
+            
+            <button>Sign Up</button>
+    </form>
+</body>
+</html>
